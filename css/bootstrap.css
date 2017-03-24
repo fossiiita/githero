@@ -2096,6 +2096,7 @@ pre code {
   }
   .col-lg-12 {
     width: 100%;
+    background-color: blue;
   }
   .col-lg-11 {
     width: 91.66666667%;
@@ -3115,7 +3116,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #00FF00;
   border-color: #2e6da4;
 }
 .btn-primary:focus,
