@@ -11,3 +11,10 @@ body {
 footer {
     margin: 50px 0;
 }
+
+#Copyright{
+	text-align: center;
+}
+#navigation{
+	 background-color: #673ab7;
+}
