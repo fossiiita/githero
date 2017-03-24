@@ -23,6 +23,27 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color:rgba(40, 96, 144, 0.73);
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
 
 </head>
 
@@ -59,7 +80,11 @@
         </div>
         <!-- /.container -->
     </nav>
-
+    <div id="flip">Click to know battle</div>
+<div id="panel">
+    <li> Level 1</li>
+    <li> Level 2</li>
+ </div> 
     <!-- Page Content -->
     <div class="container">
 
@@ -124,7 +149,9 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
+
                     <p align = "center">Copyright &copy; Your Website 2014</p>
+
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
